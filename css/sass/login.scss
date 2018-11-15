@@ -1,0 +1,112 @@
+/* 初始化 */
+@import "reset.scss";
+.main {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.header {
+    .logoHead {
+        width: 200px;
+        height: 98px;
+        background: url(../../images/login/mistore_logo.png) no-repeat;
+
+        a {
+            display: block;
+            height: 98px;
+        }
+    }
+}
+
+.banner {
+    position: relative;
+    background-image: url(../../images/login/bg.jpg);
+    width: 100%;
+    height: 588px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    .loginBox {
+        position: relative;
+        .login {
+            bottom: 0;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            width: 410px;
+            height: 524px;
+            background: #fff;
+            .other_link {
+                position: absolute;
+                bottom: 0;
+            }
+            .form_login {
+                padding:0 30px;
+                .login_t {
+                    padding: 27px 0 24px;
+                    text-align: center;
+                    font-size: 24px;
+                    a {
+                        text-decoration: none;
+                    }
+                    .user_name_link {
+                        color: #f56600;;
+                    }
+                    .line {
+                        width: 1px;
+                        height: 24px;
+                        margin: 0 35px;
+                        border: 1px solid #e0e0e0;
+                    }
+                    .qr_code_link {
+                        color: #666;
+                    }
+                }
+                #password,#username {
+                    padding: 23px 0px 23px 17px;
+                }
+                
+                .checkAll {
+                    font-size: 16px;
+                    color: #f00;
+                    text-align: center;
+                    padding-top: 20px;
+                    display: none;
+                }
+                
+                #btnColor {
+                    margin: 20px 0 10px 0;
+                    background-color: #ef5b00;
+                    color: #fff;
+                }
+                .register_now {
+                    color: #999;
+                    font-size: 14px;
+                    text-decoration: none;
+                    position: absolute;
+                    right: 30px;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 65px;
+    position: relative;
+    height: 80px;
+    text-align: center;
+    li {
+        display: inline-block;
+        a{
+
+            padding: 0 10px;
+            color: #757575;
+        }
+    }
+    .nf-intro {
+        padding: 10px;
+        color: #757575;
+    }
+}

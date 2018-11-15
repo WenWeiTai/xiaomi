@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* 初始化 */
+/* CSS Document */
+/* html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,img,span,table,form,input,textarea { margin:0; padding:0;} */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+.noborder, img {
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑","宋体",Arial;
+  color: #333;
+  background: #ffffff;
+}
+
+i, em {
+  font-style: normal;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6700;
+}
+
+a:hover {
+  color: #ff6700;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1226px;
+}
+
+.int {
+  text-indent: 2em;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+img {
+  border: 0;
+}
+
+.main {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.header .logoHead {
+  width: 200px;
+  height: 98px;
+  background: url(../../images/login/mistore_logo.png) no-repeat;
+}
+.header .logoHead a {
+  display: block;
+  height: 98px;
+}
+
+.banner {
+  position: relative;
+  background-image: url(../../images/login/bg.jpg);
+  width: 100%;
+  height: 588px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.banner .loginBox {
+  position: relative;
+}
+.banner .loginBox .login {
+  bottom: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 410px;
+  height: 524px;
+  background: #fff;
+}
+.banner .loginBox .login .form_login {
+  padding: 0 30px;
+}
+.banner .loginBox .login .form_login .login_t {
+  padding: 27px 0 36px;
+  text-align: center;
+  font-size: 24px;
+}
+.banner .loginBox .login .form_login .login_t a {
+  text-decoration: none;
+}
+.banner .loginBox .login .form_login .login_t .user_name_link {
+  color: #f56600;
+}
+.banner .loginBox .login .form_login .login_t .line {
+  width: 1px;
+  height: 24px;
+  margin: 0 35px;
+  border: 1px solid #e0e0e0;
+}
+.banner .loginBox .login .form_login .login_t .qr_code_link {
+  color: #666;
+}
+.banner .loginBox .login .form_login .form-group {
+  margin-bottom: 18px;
+}
+.banner .loginBox .login .form_login #equalityPwd, .banner .loginBox .login .form_login #phone, .banner .loginBox .login .form_login #password, .banner .loginBox .login .form_login #username {
+  padding: 17px 0px 17px 16px;
+}
+.banner .loginBox .login .form_login .inputCheck {
+  font-size: 12px;
+  color: #B6B6B6;
+  padding: 5px 10px 0 10px;
+}
+.banner .loginBox .login .form_login .checkAll {
+  font-size: 12px;
+  color: #f00;
+  text-align: center;
+  padding-bottom: 5px;
+  display: none;
+}
+.banner .loginBox .login .form_login #btnColor {
+  margin: -5px 0 10px 0;
+  background-color: #ef5b00;
+  color: #fff;
+}
+.banner .loginBox .login .form_login .register_now {
+  color: #999;
+  font-size: 14px;
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+  padding-top: 5px;
+}
+
+.footer {
+  margin-top: 65px;
+  position: relative;
+  height: 80px;
+  text-align: center;
+}
+.footer li {
+  display: inline-block;
+}
+.footer li a {
+  padding: 0 10px;
+  color: #757575;
+}
+.footer .nf-intro {
+  padding: 10px;
+  color: #757575;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/css/xiaomi.css">
+</head>
+
+<body>
+    <!-- 头部上下导航 -->
+    <div id="header">
+        <!-- 头部导航上 -->
+        <div id="h_t_Wrap">
+            <div class="showGoodsBox">
+                <ul class="showGoods main">
+                    商品
+                </ul>
+            </div>
+            <div class="main h_t">
+                <!-- 左边(导航栏) -->
+                <ul class="l fl">
+                    <li class="l_li"><a href="xiaomi.html">小米商城</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">MIUI</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">loT</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">云服务</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">金融</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">有品</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">小爱开放平台</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">政企服务</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">下载app</a><span>|</span></li>
+                    <li class="l_li"><a href="xiaomi.html">Select Region</a></li>
+                </ul>
+                <!-- 右边(登录注册) -->
+                <div class="r fr">
+                    <ul class="fl">
+                        <li><a class="loginOn" href="login.html">登录</a><span>|</span></li>
+                        <li><a class="goQuit" href="register.html">注册</a><span>|</span></li>
+                        <li><a href="##">消息通知</a></li>
+                    </ul>
+                    <div class="h_t_shopc fr">
+                        <a href="shopCart.html"><i id="scIcon" class="demo_case-gouwuchekong Down_arrow"></i>购物车&ensp;(&ensp;<i id="shopNum">0 </i>&nbsp;)</a>
+                    </div>
+                    <!-- <div></div> -->
+                </div>
+            </div>
+        </div>
+        <!-- 头部导航下 -->
+        <div id="h_b" class="main">
+            <!-- logo -->
+            <a class="fl logo" href="xiaomi.html"><img src="../images/index/xiaomi.png" alt="" title="小米商城"></a>
+            <!-- 活动 -->
+            <a class="fl logo_r" href="xiaomi.html"><img src="../images/index/cms_15410669089659_TZmzr.gif" alt=""></a>
+            <!-- 导航 -->
+            <ul class="h_b_nav">
+                <li class="h_b_nav_li"><a href="##">小米手机</a></li>
+                <li class="h_b_nav_li"><a href="##">红米</a></li>
+                <li class="h_b_nav_li"><a href="##">电视</a></li>
+                <li class="h_b_nav_li"><a href="##">笔记本</a></li>
+                <li class="h_b_nav_li"><a href="##">空调</a></li>
+                <li class="h_b_nav_li"><a href="##">新品</a></li>
+                <li class="h_b_nav_li"><a href="##">路由器</a></li>
+                <li class="h_b_nav_li"><a href="##">智能硬件</a></li>
+                <li class="h_b_nav_li"><a href="##">服务</a></li>
+                <li class="h_b_nav_li"><a href="##">社区</a></li>
+            </ul>
+            <!-- 搜索 -->
+            <form class="h_b_search">
+                <input class="s_txt" type="text">
+                <input class="s_btn Down_arrow " type="submit" value="&#xe64d;">
+            </form>
+        </div>
+    <!-- </div> -->
+
+</body>
+
+</html>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript">
+	$(function(){
+        var getUname = localStorage.getItem("userName");
+		//加载完头部html，拿到头部登录节点跟localStorage的值
+		if(getUname){
+            //购物车数量
+            //拿到localStorage里的用户数据，计算当前用户的购物车商品数量
+            if(localStorage.getItem(getUname + "Goods")){
+                var getUserCount = JSON.parse(localStorage.getItem(getUname + "Goods"));
+                var count = 0;
+                for(var i = 0; i < getUserCount.length; i++){
+                    count += getUserCount[i].count
+                }
+                $('#shopNum').html(count);
+            }
+
+            //登录跟退出的操作
+			$('.loginOn').html(getUname).removeAttr('href').css({color : '#ff6700',fontSize : 14});
+			$('.goQuit').html('退出').attr({'href' : 'xiaomi.html'});
+			$('.goQuit').click(function(){
+                var clearUser = '';
+                localStorage.setItem('userName',clearUser);
+            })
+            //解决其他跳转到主页的链接
+            $('.l').on('click','.l_li',function(){
+                $(this).eq($(this).index('.l_li')).attr({'href' : 'xiaomi.html?' + getUname});
+            })
+        }
+        
+        //导航移入移出弹出的链接版块
+        $('.h_b_nav').on('mouseover','.h_b_nav_li > a',function(){
+            $('.showGoodsBox').stop().slideDown('fast');
+        })
+        $('.h_b_nav').on('mouseout','.h_b_nav_li > a',function(){
+            $('.showGoodsBox').stop().slideUp('fast');
+        })
+
+	})
+	
+</script>

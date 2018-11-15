@@ -1,0 +1,130 @@
+{
+	
+	"bannerB" : [
+		{
+			"id" : 1101,
+			"img" : "../images/banner/banner_b/banner_b01.jpg",
+			"img1" : "../images/glass/1.jpg",
+			"img2" : "../images/glass/1b.jpg",
+			"title" : "小米8 青春版",
+			"desc" : "潮流镜面渐变色 / 2400万自拍旗舰 / 7.5mm超薄机身 / 6.26“小刘海全面屏 / AI裸妆美颜 / 骁龙660AIE处理器",
+			"price" : "1399元 ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+			"id" : 1102,
+			"img" : "../images/banner/banner_b/banner_b02.jpg",
+			"img1" : "../images/glass/11.jpg",
+			"img2" : "../images/glass/11b.jpg",
+			"title" : "红米6",
+			"desc" : "「小米11.11返场，限时最高省170元」 小屏高性能的双摄手机 / 后置1200万 AI双摄 / 12nm八核处理器 / AI 人脸解锁",
+			"price" : "799元 ",
+			"edition1" : "3GB+32GB",
+			"edition1P" : "699元",
+			"edition2" : "4GB+64GB ",
+			"edition2P" : "799元起",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "流沙金",
+			"color1" : "樱花粉"
+
+		},
+		{
+
+			"id" : 1103,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/21.jpg",
+			"img2" : "../images/glass/21b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+
+			"id" : 101,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/31.jpg",
+			"img2" : "../images/glass/31b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+
+			"id" : 102,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/41.jpg",
+			"img2" : "../images/glass/41b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+
+			"id" : 103,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/51.jpg",
+			"img2" : "../images/glass/51b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+
+			"id" : 104,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/61.jpg",
+			"img2" : "../images/glass/61b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		}
+	]
+}

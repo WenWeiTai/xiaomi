@@ -1,0 +1,160 @@
+#detail_w {
+  padding-top: 32px;
+  padding-bottom: 50px;
+}
+
+.glass_box {
+  position: relative;
+}
+.glass_box #small {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 560px;
+  height: 560px;
+  border: 2px solid white;
+}
+.glass_box #small img {
+  width: 100%;
+  height: 100%;
+}
+.glass_box #small #mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: move;
+  display: none;
+}
+.glass_box #big {
+  background: #fff;
+  position: absolute;
+  z-index: 10;
+  left: 570px;
+  top: 0;
+  width: 560px;
+  height: 560px;
+  overflow: hidden;
+  display: none;
+  border: 2px solid #eee;
+}
+.glass_box #big #bigImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.detail_box {
+  float: left;
+}
+
+.detail {
+  float: left;
+  width: 606px;
+  padding-left: 620px;
+}
+.detail .name {
+  font-size: 24px;
+  font-weight: normal;
+  color: #212121;
+}
+.detail .info {
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+}
+.detail .company {
+  margin-top: 20px;
+  color: #ff6700;
+}
+.detail .price_box {
+  font-size: 18px;
+  line-height: 1;
+  color: #ff6700;
+  padding: 12px 0 20px;
+}
+.detail .place_box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.detail .place_box .place {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding-left: 50px;
+  padding: 30px 40px 30px 32px;
+  line-height: 30px;
+}
+.detail .place_box .place i {
+  font-size: 20px;
+  color: #999;
+  padding-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.detail .place_box .place .address span {
+  color: #ff6700;
+}
+.detail .place_box .place .have {
+  padding-left: 30px;
+  color: #ff6700;
+}
+.detail .edition_box {
+  margin-bottom: 30px;
+}
+.detail .edition_box .edi_title {
+  font-size: 18px;
+}
+.detail .edition_box .edi_list {
+  margin-left: -6px;
+}
+.detail .edition_box .edi_list li {
+  margin-left: 6px;
+  margin-top: 15px;
+  line-height: 42px;
+  height: 42px;
+  float: left;
+  position: relative;
+  border: 1px solid #e0e0e0;
+  list-style: none;
+  cursor: pointer;
+  overflow: hidden;
+  width: 298px;
+}
+.detail .edition_box .edi_list li a {
+  display: block;
+  color: #333;
+  text-align: left;
+  margin: 0;
+  padding: 0 27px;
+}
+.detail .edition_box .edi_list li a .name {
+  color: #333;
+  font-size: 16px;
+}
+.detail .edition_box .edi_list li a .price {
+  float: right;
+  color: #757575;
+}
+.detail .edition_box .edi_list li .center {
+  text-align: center;
+}
+
+#active {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+
+#goCard {
+  background: #ff6700;
+  border-color: #ff6700;
+  color: #fff;
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}

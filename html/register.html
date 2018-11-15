@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米账号 - 登录</title>
+</head>
+<link rel="stylesheet" href="../css/css/register.css">
+<link rel="stylesheet" href="../css/css/bootstrap.css">
+<body>
+    <div class="header main">
+        <div class="logoHead">
+            <a href="xiaomi.html"></a>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="loginBox  main">
+            <!-- 登录 -->
+            <div class="login">
+                <form class="form_login" action="../php/register.php" method="post">
+                    <div class="login_t">
+                        <a class="user_name_link" href="##">帐号注册</a>
+                        <span class="line"></span>
+                        <a class="qr_code_link" href="##">手机号注册</a>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="username">帐号</label> -->
+                        <input type="text" id="username" class="form-control" name="username" autocomplete="off" autofocus="autofocus">
+                        <p class="unameCheck inputCheck">请输入4-12位开头不为空，数字，特殊字符的用户名</p>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="password">密码</label> -->
+                        <input type="password" id="password" class="form-control pwd" name="password">
+                        <p class="pwdCheck inputCheck">请输入6-12位开头不为空的密码</p>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="password">确认密码</label> -->
+                        <input type="password" id="equalityPwd" class="form-control">
+                        <p class="equalityPwdCheck inputCheck">请再次确认密码</p>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="phone">手机</label> -->
+                        <input type="text" id="phone" class="form-control" name="phone" autocomplete="off">
+                        <p class="checkPhone inputCheck">请输入11位的手机号码</p>
+                    </div>
+                    <p class="checkAll">*请完善以上信息再注册</p>
+                    <button type="submit" class="btn btn-lg btn-block" id="btnColor">注册</button>	
+                    <a class="register_now" href="login.html">返回登录</a>
+                </form>
+                <!--<img class="other_link" src="../images/login/1.png" alt="">-->
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nf-link-area">
+            <ul class="lang-select-list">
+                <li><a href="##">简体</a>|</li>
+                <li><a href="##">繁体</a>|</li>
+                <li><a href="##">English</a>|</li>
+                <li><a href="##">常见问题</a>|</li>
+                <li><a href="##">隐私政策</a>|</li>
+            </ul>
+        </div>
+        <p class="nf-intro">小米公司版权所有-京ICP备10046444-<img src="../images/login/ghs.png">京公网安备11010802020134号-京ICP证110507号</p>
+    </div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/register.js"></script>

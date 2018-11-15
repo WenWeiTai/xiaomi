@@ -1,0 +1,468 @@
+[
+	{
+		"title" : "家电",
+		"li1" : "热门",
+		"li2" : "电视影音",
+		"li3" : "电脑",
+		"li4" : "家居",
+		"src1" : "../images/list/jd/1.jpg",
+		"src2" : "../images/list/jd/12.jpg",
+		"src3" : "../images/list/jd/11.jpg",
+		"list" :[
+			{
+				"id" : 301,
+				"img" : "../images/list/jd/2.jpg",
+				"title" : "小米电视4A 43英寸青春版",
+				"desc" : "全高清屏 / 人工智能语音",
+				"price" : "1399",
+				"del" : "1699",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 302,
+				"img" : "../images/list/jd/4.jpg",
+				"title" : "小米电视4C 50英寸",
+				"desc" : "4K HDR / 人工智能语音",
+				"price" : "1899",
+				"del" : "2199",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 303,
+				"img" : "../images/list/jd/5.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 304,
+				"img" : "../images/list/jd/6.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 305,
+				"img" : "../images/list/jd/7.jpg",
+				"title" : "小米8 青春版 4GB+64GB",
+				"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+				"price" : "1399",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 306,
+				"img" : "../images/list/jd/8.jpg",
+				"title" : "小米8 屏幕指纹版 8GB+128GB",
+				"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+				"price" : "3599",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 307,
+				"img" : "../images/list/jd/9.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 308,
+				"img" : "../images/list/jd/10.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			}
+			
+		]
+	},
+	{
+		"title" : "智能",
+		"li1" : "热门",
+		"li2" : "出行",
+		"li3" : "健康",
+		"li4" : "酷玩",
+		"src1" : "../images/list/zn/1.jpg",
+		"src2" : "../images/list/zn/6.jpg",
+		"src3" : "../images/list/zn/11.jpg",
+		"list" :[
+			{
+				"id" : 401,
+				"img" : "../images/list/zn/2.jpg",
+				"title" : "小米电视4A 43英寸青春版",
+				"desc" : "全高清屏 / 人工智能语音",
+				"price" : "1399",
+				"del" : "1699",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 402,
+				"img" : "../images/list/zn/4.jpg",
+				"title" : "小米电视4C 50英寸",
+				"desc" : "4K HDR / 人工智能语音",
+				"price" : "1899",
+				"del" : "2199",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 403,
+				"img" : "../images/list/zn/5.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 404,
+				"img" : "../images/list/zn/6.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 405,
+				"img" : "../images/list/zn/7.jpg",
+				"title" : "小米8 青春版 4GB+64GB",
+				"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+				"price" : "1399",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 406,
+				"img" : "../images/list/zn/8.jpg",
+				"title" : "小米8 屏幕指纹版 8GB+128GB",
+				"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+				"price" : "3599",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 407,
+				"img" : "../images/list/zn/9.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 408,
+				"img" : "../images/list/zn/10.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			}
+			
+		]
+	},
+	{
+		"title" : "搭配",
+		"li1" : "热门",
+		"li2" : "耳机音箱",
+		"li3" : "电源",
+		"li4" : "电池存储卡",
+		"src1" : "../images/list/dp/1.jpg",
+		"src2" : "../images/list/dp/6.jpg",
+		"src3" : "../images/list/dp/11.jpg",
+		"list" :[
+			{
+				"id" : 501,
+				"img" : "../images/list/dp/2.jpg",
+				"title" : "小米电视4A 43英寸青春版",
+				"desc" : "全高清屏 / 人工智能语音",
+				"price" : "1399",
+				"del" : "1699",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 502,
+				"img" : "../images/list/dp/4.jpg",
+				"title" : "小米电视4C 50英寸",
+				"desc" : "4K HDR / 人工智能语音",
+				"price" : "1899",
+				"del" : "2199",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 503,
+				"img" : "../images/list/dp/5.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 504,
+				"img" : "../images/list/dp/6.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 505,
+				"img" : "../images/list/dp/7.jpg",
+				"title" : "小米8 青春版 4GB+64GB",
+				"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+				"price" : "1399",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 506,
+				"img" : "../images/list/dp/8.jpg",
+				"title" : "小米8 屏幕指纹版 8GB+128GB",
+				"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+				"price" : "3599",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 507,
+				"img" : "../images/list/dp/9.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 508,
+				"img" : "../images/list/dp/10.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			}
+			
+		]
+	},
+	{
+		"title" : "配件",
+		"li1" : "热门",
+		"li2" : "保护套",
+		"li3" : "贴膜",
+		"li4" : "其他配件",
+		"src1" : "../images/list/pj/1.jpg",
+		"src2" : "../images/list/pj/6.jpg",
+		"src3" : "../images/list/pj/11.jpg",
+		"list" :[
+			{
+				"id" : 601,
+				"img" : "../images/list/pj/2.jpg",
+				"title" : "小米电视4A 43英寸青春版",
+				"desc" : "全高清屏 / 人工智能语音",
+				"price" : "1399",
+				"del" : "1699",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 602,
+				"img" : "../images/list/pj/4.jpg",
+				"title" : "小米电视4C 50英寸",
+				"desc" : "4K HDR / 人工智能语音",
+				"price" : "1899",
+				"del" : "2199",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 603,
+				"img" : "../images/list/pj/5.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 604,
+				"img" : "../images/list/pj/6.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 605,
+				"img" : "../images/list/pj/7.jpg",
+				"title" : "小米8 青春版 4GB+64GB",
+				"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+				"price" : "1399",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 606,
+				"img" : "../images/list/pj/8.jpg",
+				"title" : "小米8 屏幕指纹版 8GB+128GB",
+				"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+				"price" : "3599",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 607,
+				"img" : "../images/list/pj/9.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 608,
+				"img" : "../images/list/pj/10.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			}
+			
+		]
+	},
+	{
+		"title" : "周边",
+		"li1" : "热门",
+		"li2" : "出行",
+		"li3" : "居家",
+		"li4" : "生活周边",
+		"src1" : "../images/list/zb/1.jpg",
+		"src2" : "../images/list/zb/6.jpg",
+		"src3" : "../images/list/zb/11.jpg",
+		"list" :[
+			{
+				"id" : 701,
+				"img" : "../images/list/zb/2.jpg",
+				"title" : "小米电视4A 43英寸青春版",
+				"desc" : "全高清屏 / 人工智能语音",
+				"price" : "1399",
+				"del" : "1699",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 702,
+				"img" : "../images/list/zb/4.jpg",
+				"title" : "小米电视4C 50英寸",
+				"desc" : "4K HDR / 人工智能语音",
+				"price" : "1899",
+				"del" : "2199",
+				"flag" : "    减 300 元  ",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 703,
+				"img" : "../images/list/zb/5.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 704,
+				"img" : "../images/list/zb/6.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 705,
+				"img" : "../images/list/zb/7.jpg",
+				"title" : "小米8 青春版 4GB+64GB",
+				"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+				"price" : "1399",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 706,
+				"img" : "../images/list/zb/8.jpg",
+				"title" : "小米8 屏幕指纹版 8GB+128GB",
+				"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+				"price" : "3599",
+				"del" : "",
+				"flag" : "新品",
+				"class" : "flag_new"
+			},
+			{
+				"id" : 707,
+				"img" : "../images/list/zb/9.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			},
+			{
+				"id" : 708,
+				"img" : "../images/list/zb/10.jpg",
+				"title" : "小米8 SE 4GB+64GB",
+				"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+				"price" : "1699",
+				"del" : "1799",
+				"flag" : "减 100 元",
+				"class" : "flag-saleoff"
+			}
+			
+		]
+	}
+	
+]

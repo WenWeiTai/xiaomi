@@ -1,0 +1,324 @@
+{
+	"banner" : [
+		{
+			"img" : "../images/banner/1.jpg",
+			"img1" : "../images/banner/2.jpg",
+			"img2" : "../images/banner/3.jpg",
+			"img3" : "../images/banner/4.jpg",
+			"img4" : "../images/banner/5.jpg"
+		}
+	],
+	"bannerB" : [
+		{
+			"id" : 1101,
+			"img" : "../images/banner/banner_b/banner_b01.jpg",
+			"img1" : "../images/glass/1.jpg",
+			"img2" : "../images/glass/1b.jpg",
+			"title" : "小米8 青春版",
+			"desc" : "潮流镜面渐变色 / 2400万自拍旗舰 / 7.5mm超薄机身 / 6.26“小刘海全面屏 / AI裸妆美颜 / 骁龙660AIE处理器",
+			"price" : "1399元 ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		},
+		{
+			"id" : 1102,
+			"img" : "../images/banner/banner_b/banner_b02.jpg",
+			"img1" : "../images/glass/11.jpg",
+			"img2" : "../images/glass/11b.jpg",
+			"title" : "红米6",
+			"desc" : "「小米11.11返场，限时最高省170元」 小屏高性能的双摄手机 / 后置1200万 AI双摄 / 12nm八核处理器 / AI 人脸解锁",
+			"price" : "799元 ",
+			"edition1" : "3GB+32GB",
+			"edition1P" : "699元",
+			"edition2" : "4GB+64GB ",
+			"edition2P" : "799元起",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "流沙金",
+			"color1" : "樱花粉"
+
+		},
+		{
+
+			"id" : 1103,
+			"img" : "../images/banner/banner_b/banner_b03.jpg",
+			"img1" : "../images/glass/21.jpg",
+			"img2" : "../images/glass/21b.jpg",
+			"title" : "小米手环3 NFC版",
+			"desc" : "支持公交地铁刷卡 / 微信、QQ、来电等内容显示 / 多种运动数据实时可见 / 睡眠、计步自动检测 / 50 米游泳防水 / 24 个汉字一屏显示",
+			"price" : "199元  ",
+			"edition1" : "4GB+64GB 全网通 ",
+			"edition1P" : "1399元",
+			"edition2" : "6GB+64GB 全网通 ",
+			"edition2P" : "1699元",
+			"edition3" : "6GB+128GB 全网通",
+			"edition3P" : "1999元",
+			"color" : "梦幻蓝",
+			"color1" : "深空灰"
+		}
+		
+	]
+	,
+    "xmsg" : [
+        {
+            "id" : 101,
+            "img" : "../images/banner/banner_b/1.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : "立减100"
+        },
+        {
+            "id" : 102,
+            "img" : "../images/banner/banner_b/2.jpg",
+            "title" : "自动折叠伞 黑",
+            "desc" : "防泼水伞布，轻盈拒水",
+            "price" : "11.1",
+            "del" : "99元",
+            "flag" : "11.1秒杀"
+        },
+        {
+            "id" : 103,
+            "img" : "../images/banner/banner_b/3.jpg",
+            "title" : "小米随身手电筒 白色",
+            "desc" : "11挡亮度轻松切换",
+            "price" : "1",
+            "del" : "79元",
+            "flag" : "1元秒杀"
+        },
+        {
+            "id" : 104,
+            "img" : "../images/banner/banner_b/4.jpg",
+            "title" : "手机USB micro 数据线 白色",
+            "desc" : "实用设计，耐用持久",
+            "price" : "1",
+            "del" : "9.9元",
+            "flag" : "1元秒杀"
+        },
+        {
+            "id" : 104,
+            "img" : "../images/banner/banner_b/5.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 105,
+            "img" : "../images/banner/banner_b/6.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 106,
+            "img" : "../images/banner/banner_b/7.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 107,
+            "img" : "../images/banner/banner_b/8.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 108,
+            "img" : "../images/banner/banner_b/1.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 109,
+            "img" : "../images/banner/banner_b/2.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 110,
+            "img" : "../images/banner/banner_b/3.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 111,
+            "img" : "../images/banner/banner_b/4.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 112,
+            "img" : "../images/banner/banner_b/5.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 113,
+            "img" : "../images/banner/banner_b/6.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 114,
+            "img" : "../images/banner/banner_b/7.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 115,
+            "img" : "../images/banner/banner_b/8.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        },
+        {
+            "id" : 116,
+            "img" : "../images/banner/banner_b/1.jpg",
+            "title" : "最生活毛巾•Air（10条装）白色",
+            "desc" : "超值家庭装 轻柔速干",
+            "price" : "69",
+            "del" : "169元",
+            "flag" : " 立减100"
+        }
+    ],
+	"xmsg_b" : [
+		{
+			"id" : 117,
+			"img" : "../images/banner/banner_b/banner_b_HS.jpg"
+		}
+	],
+	"sj_l" : [
+		{
+			"id" : 200,
+			"img" : "../images/list/sj/1.jpg"
+		}
+	],
+	"sj" : [
+		{
+			"id" : 201,
+			"img" : "../images/list/sj/2.jpg",
+			"title" : "小米8 青春版 4GB+64GB",
+			"desc" : "潮流镜面渐变色，2400万自拍旗舰",
+			"price" : "1399",
+			"del" : "",
+			"flag" : "新品",
+			"class" : "flag_new"
+		},
+		{
+			"id" : 202,
+			"img" : "../images/list/sj/3.jpg",
+			"title" : "小米8 屏幕指纹版 8GB+128GB",
+			"desc" : "全球首款压感屏幕指纹，双频GPS超精准定位",
+			"price" : "3599",
+			"del" : "",
+			"flag" : "新品",
+			"class" : "flag_new"
+		},
+		{
+			"id" : 203,
+			"img" : "../images/list/sj/4.jpg",
+			"title" : "小米8 SE 4GB+64GB",
+			"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+			"price" : "1699",
+			"del" : "1799",
+			"flag" : "减 100 元",
+			"class" : "flag-saleoff"
+		},
+		{
+			"id" : 204,
+			"img" : "../images/list/sj/5.jpg",
+			"title" : "小米8 SE 4GB+64GB",
+			"desc" : "AI 超感光双摄，三星 AMOLED 屏幕",
+			"price" : "1699",
+			"del" : "1799",
+			"flag" : "减 100 元",
+			"class" : "flag-saleoff"
+		},
+		{
+			"id" : 205,
+			"img" : "../images/list/sj/6.jpg",
+			"title" : "小米MIX 2S 8GB+256GB",
+			"desc" : "骁龙845 年度旗舰处理器，艺术品般陶瓷机身",
+			"price" : "3599",
+			"del" : "3999",
+			"flag" : "减 400 元",
+			"class" : "flag-saleoff"
+		},
+		{
+			"id" : 206,
+			"img" : "../images/list/sj/7.jpg",
+			"title" : "小米6X 4GB+32GB",
+			"desc" : "全索尼相机，骁龙660 AIE处理器",
+			"price" : "1199",
+			"del" : "1499",
+			"flag" : "   享8折  ",
+			"class" : "flag-saleoff"
+		},
+		{
+			"id" : 207,
+			"img" : "../images/list/sj/8.jpg",
+			"title" : "小米Max 3 4GB+64GB",
+			"desc" : "",
+			"price" : "1599",
+			"del" : "1699",
+			"flag" : "    减 100 元  ",
+			"class" : "flag-saleoff"
+		},
+		{
+			"id" : 208,
+			"img" : "../images/list/sj/9.jpg",
+			"title" : "红米6 Pro 3GB+32GB",
+			"desc" : "",
+			"price" : "869",
+			"del" : "999",
+			"flag" : "    减 130 元  ",
+			"class" : "flag-saleoff"
+		}
+		
+	],
+	"sj_b" : [
+		{
+			"id" : 209,
+			"img" : "../images/list/sj/10.jpg"
+		}
+	]
+}
